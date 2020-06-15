@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('1199648739:AAELa3lVSHMLS1fHhsT_krejfc2pBBA0kqw')
+bot = telebot.TeleBot('token')
 admins = [930416869, 993368774, 1098481550, 774618861]
 
 @bot.message_handler(commands=['start'])
